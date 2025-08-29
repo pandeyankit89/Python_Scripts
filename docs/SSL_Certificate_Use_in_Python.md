@@ -35,6 +35,11 @@ print(certifi.where())
 ```
 cp My_Application.pem /etc/pki/ca-trust/source/anchors/My_Application.crt
 ``` 
+Copies the certificate to the anchors directory, which is where RHEL expects custom trusted CA certificates.
+```
+sudo update-ca-trust extract:
+```
+Processes all CA certificates in the source/anchors directory and reconstructs the system’s CA trust bundle
 - **macOS:** system Keychain or /private/etc/ssl/cert.pem
 - **Windows:** Windows Certificate Store (but requests doesn’t directly use it unless patched; instead it uses certifi).
 ---
