@@ -2,3 +2,7 @@
 (1) [Input, Output, and Import in Python](docs/Input_Output_Import.md)
 
 (2) [if-elif-else statements](docs/if_elif_else_statements.md)
+
+
+### Miscelleneous :
+- [How Python uses SSL certificate ?](docs/SSL_Certificate_Use_in_Python.md)
