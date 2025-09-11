@@ -366,7 +366,7 @@ df.reset_index(drop=True, inplace=True)
             - ~95% area → Data lies within **±2σ** of the mean (almost all typical values).  
             - ~99.7% area → Data lies within **±3σ** of the mean (extreme but still normal values).  
             - This is called the *_Empirical Rule (68–95–99.7 Rule)_*.
-            <div align="center"><img src="/img/emperical_rule.png" alt="Empirical Rule" style="width:30%; height:30%;" /></div>
+            <div align="center"><img src="/ML_Using_Python/img/emperical_rule.png" alt="Empirical Rule" style="width:30%; height:30%;" /></div>
         - `df['<col-name>'].mode()` : mostly used for characher data
         
     - *(2) Measure of Dispersion* : range as min and max, variance (how far away each item from mean, but we take square to avoid negative value), std dev (square-root of varaince), quartiles
@@ -386,7 +386,7 @@ df.reset_index(drop=True, inplace=True)
             - `Outlier` = `anything greater than Upper whisker` or `anything lower than Lower whicker`
         - `df['<col-name>'].quartile(0.25)` : First Quartile value
         - `df['<col-name>'].quartile(0.75)` : Third Quartile value
-        <div align="center"><img src="/img/boxplot.png" alt="Boxplot" style="width:30%; height:30%;"/></div>
+        <div align="center"><img src="/ML_Using_Python/img/boxplot.png" alt="Boxplot" style="width:30%; height:30%;"/></div>
 
     - *(3) Measure of Shape* : skewness, kurtosis
         - `(1) Degree of Skewness` : means which side data is more alligned like lef-skiwed or right-skewed 
@@ -536,4 +536,5 @@ df.describe()
 #max	300.000000		3389.000000		3389.000000		999942.000000	17678.000000
 ```
 ---
+
 
