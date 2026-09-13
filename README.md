@@ -7,4 +7,4 @@
 ### Miscelleneous :
 - [How Python uses SSL certificate ?](docs/SSL_Certificate_Use_in_Python.md)
 - [How to create Server-Client Socket Connection using socket module ?](Python_Socket_Module_Server_Client.md)
-- [How to run jupyter-lab on Anaconda ?](Running_Jupyter-lab_on_Anaconda.md)
+- [How to run jupyter-lab on Anaconda ?](docs/Running_Jupyter-lab_on_Anaconda.md)
